@@ -47,8 +47,10 @@
 </br>
 
 1. To list running processes and their corresponding ports:
-```
-sudo lsof -i -n -p
-```
+   ```
+   sudo lsof -i -n -p
+   ```
+
+</br>
    
    
