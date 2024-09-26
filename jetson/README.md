@@ -13,3 +13,5 @@
    ssh jetson@192.168.0.102
    ```
    Then type the passward: `jetson`.
+   </br>
+1. 
