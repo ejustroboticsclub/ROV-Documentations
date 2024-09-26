@@ -13,7 +13,7 @@
    ssh jetson@192.168.0.102
    ```
    Then type the passward: `jetson`.
-   </br>
+   </br> </br>
 1. To list the devices connected to Jetson's ports:
    ```
    ls /dev/ttyACM*
