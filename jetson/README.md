@@ -81,5 +81,8 @@
    ```
    </br>
 
-1. 
+1. To restart the Jetson:
+   ```
+   sudo reboot
+   ```
    
