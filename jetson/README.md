@@ -43,8 +43,7 @@
    ```
    sudo tegrastats
    ```
-
-</br>
+   </br>
 
 1. To list running processes and their corresponding ports:
    ```
