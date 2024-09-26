@@ -14,4 +14,16 @@
    ```
    Then type the passward: `jetson`.
    </br>
-1. 
+1. To list the devices connected to Jetson's ports:
+   ```
+   ls /dev/ttyACM*
+   ```
+   or use this:
+   ```
+   ls ls /dev/ttyUSB*
+   ```
+   or you can use this alias:
+   ```
+   ports
+   ```
+   
