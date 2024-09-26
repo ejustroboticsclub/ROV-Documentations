@@ -8,11 +8,11 @@
 ### Commands
 
 1. To access the Jetson via SSH:
-   First, make sure to connect to the `ejust` wifi. Passward: `12345678`
+   First, make sure to connect to the `ejust` wifi. Password: `12345678`
    ```
    ssh jetson@192.168.0.102
    ```
-   Then type the passward: `jetson`.
+   Then type the password: `jetson`.
    
    </br>
    
@@ -39,6 +39,16 @@
 
    </br> 
 
-1. 
+1. To check the Jetson's temperature:
+   ```
+   sudo tegrastats
+   ```
+
+</br>
+
+1. To list running processes and their corresponding ports:
+```
+sudo lsof -i -n -p
+```
    
    
