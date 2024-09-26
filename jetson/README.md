@@ -14,7 +14,7 @@
    ```
    Then type the passward: `jetson`.
    
-   </br> </br>
+   </br>
    
 1. To list the devices connected to Jetson's ports:
    ```
