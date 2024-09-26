@@ -50,8 +50,36 @@
    sudo lsof -i -n -p
    ```
 
-</br>
-
-
+   </br>
    
+1. To Kill process using its id:
+   ```
+   sudo kill -9 <id>
+   ```
+   </br>
+
+1. To view available wifi networks:
+   ```
+   nmcli d
+   ```
+   </br>
+
+1. To connect to a wifi network:
+   ```
+   nmcli device wifi connect <SSID name> password <password>
+   ```
+   </br>
+   
+1. The Internet will not work if ethernet and wifi are both connected.
+   To stop ethernet in order for wifi to work:
+   ```
+   sudo ifconfig eth0 down
+   ```
+   To stop wifi inorder for ethernet to work:
+   ```
+   sudo ifconfig wifi down
+   ```
+   </br>
+
+1. 
    
