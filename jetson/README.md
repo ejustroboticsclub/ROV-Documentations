@@ -46,13 +46,6 @@
 
 </br>
 
-1. To check the Jetson's temperature:
-   ```
-   sudo tegrastats
-   ```
-   
-</br>
-
 1. To list running processes and their corresponding ports:
    ```
    sudo lsof -i -n -p
