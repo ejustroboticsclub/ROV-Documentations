@@ -29,7 +29,7 @@
    ports
    ```
 
-   </br> </br>
+   </br> 
 
 1. To start a RTSP server to stream a video from a connected camera device:
    ```
@@ -37,7 +37,7 @@
    ```
    `<video-input-device>` can be `/dev/video0`.
 
-   </br> </br>
+   </br> 
 
 1. 
    
