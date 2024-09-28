@@ -87,7 +87,7 @@
    ```
    </br>
    
-1. To list the cameras connected to USP ports:
+1. To list the cameras connected to USB ports:
    ```
    sudo v4l2-ctl --list-devices
    ```
