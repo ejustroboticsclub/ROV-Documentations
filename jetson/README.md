@@ -98,5 +98,14 @@
    sudo v4l2-ctl -d <video-input-device> --list-ctrls
    ```
    `<video-input-device>` can be `/dev/video0`.
+   </br>
+   
+1. To change the value of a specific control(Brightness/sharpness/etc) for a video device:
+   ```
+   v4l2-ctl -d <video-input-device> --set-ctrl=<control_name>=<value>
+   ```
+   </br>
+
+1. 
 
    
