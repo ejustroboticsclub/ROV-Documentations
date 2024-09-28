@@ -85,4 +85,18 @@
    ```
    sudo reboot
    ```
+   </br>
+   
+1. To list the cameras connected to USP ports:
+   ```
+   sudo v4l2-ctl --list-devices
+   ```
+   </br>
+
+1. To list the available controls/settings to a camera:
+   ```
+   sudo v4l2-ctl -d <video-input-device> --list-ctrls
+   ```
+   `<video-input-device>` can be `/dev/video0`.
+
    
