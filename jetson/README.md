@@ -7,7 +7,7 @@
 
 ### Commands
 
-1. To access the Jetson via SSH:
+1. To access the Jetson via SSH: </br>
    First, make sure to connect to the `ejust` wifi. Password: `12345678`
    ```
    ssh jetson@192.168.0.102
